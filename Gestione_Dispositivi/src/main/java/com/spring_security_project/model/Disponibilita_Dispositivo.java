@@ -3,7 +3,7 @@ package com.spring_security_project.model;
 public enum Disponibilita_Dispositivo {
 
 	
-	DOSPONIBILE,
+	DISPONIBILE,
 	ASSEGNATO,
 	MANUTENZIONE,
 	DISMESSO
