@@ -30,6 +30,8 @@ public class Runner implements ApplicationRunner {
 		dispositivoService.createDispositivo(Tipologia_Dispositivo.SMARTPHONE, Disponibilita_Dispositivo.DISPONIBILE, null);
 		dipendenteService.addDispositivotoDipendente(dispositivoDAORepository.findById(1l).get(), 2l);
 		
+		
+		//Test con user effetuati su Postman riusulta tutto funzionante senza problemi
 	}
 
 }
